@@ -31,6 +31,6 @@ fetchData(API, function(error1, data1){
             console.log(data1.info.count);
             console.log(data2.name);
             console.log(data3.dimension);
-        })
-    });
+        });
+    })
 })
