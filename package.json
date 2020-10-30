@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jela3105/CanContentoFrontend/issues"
   },
-  "homepage": "https://github.com/jela3105/CanContentoFrontend#readme"
+  "homepage": "https://github.com/jela3105/CanContentoFrontend#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
