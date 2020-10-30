@@ -4,9 +4,10 @@
   "description": "Frontend for cancontento with JavaScript",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callback/index.js",
-    "challenge": "node src/callbackExample/challenge.js",
-    "promise": "node src/promiseExample/index.js"
+    "callback": "node src/Example/callbackExample/index.js",
+    "callback:challenge": "node src/Example/callbackExample/challenge.js",
+    "promise": "node src/Example/promiseExample/index.js",
+    "promise:challenge": "node src/Example/promiseExample/challenge.js"
   },
   "repository": {
     "type": "git",

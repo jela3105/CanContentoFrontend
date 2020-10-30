@@ -1,5 +1,5 @@
 const fetchData = require('../utilsExample/fetchData')
-const API = 'https://rickandmortyapi.com/api/character';
+const API = 'https://rickandmortyapi.com/api/character/';
 
 fetchData(API)
 .then(data => {

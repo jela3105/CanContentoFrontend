@@ -9,7 +9,7 @@ const fetchData = (url_api) =>{
             // el 4 indica que se completo la peticion
             if(xhttp.readyState === 4){
                 (xhttp.status ===200)
-                ? resolve(JSON.parse(xhttp,this.responseText))
+                ? resolve(JSON.parse(xhttp.responseText))
                 : reject(new Error('Error ', url_api))
             }
         });
