@@ -13,11 +13,11 @@ function date(callback){
     setTimeout(function(){
         let date = new Date;
         callback(date);
-    },5000)
+    },3000)
 }
 
-function printDate(){
-    console.log(datenow);
+function printDate(dateNow){
+    console.log(dateNow);
 }
 
 date(printDate);
