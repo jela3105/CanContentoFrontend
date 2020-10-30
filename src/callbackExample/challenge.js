@@ -22,6 +22,8 @@ function fetchData(url_api, callback){
 }
 
 //hacer peticion a la api, obtener cuantos elementos de personajes tiene, acceder al primer personaje, obtener ubicacion del personaje, obtener dimension
+//Como buena practica trabajar solo con 3 callback hell
+
 fetchData(API, function(error1, data1){
     if(error1) return console.error(error1);
     fetchData(API + data1.results[0].id, function(error2, data2){
