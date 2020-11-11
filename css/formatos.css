@@ -11,3 +11,11 @@
     height: 450px;
     width: 100%;
 }
+
+#opiniones{
+    width: 90%;
+}
+
+#opiniones .opinion{
+    width: 50%;
+}
