@@ -22,3 +22,12 @@ function printDate(dateNow){
 
 date(printDate);
 
+/*
+    VENTAJAS:
+    -simple: garantiza que una funcion recibe a otra funcion que se va a ejecutar sin problemas
+    -se puden correr en cualquier navegador
+    DESVENTAJAS:
+    -las estructura es tosca ya que se tiene que ir anidando volviendose callback hell (muchas anidaciones y 
+        puede perderse la composicion)
+    -flujo poco intuitivo y tedioso por no poder manejar una excepcion
+ */

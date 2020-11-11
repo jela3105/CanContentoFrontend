@@ -36,3 +36,16 @@ Promise.all([somethingWillHappen(), somethingWillHappen2()])
     .catch(err => {
         console.error(err);
     })
+
+/*
+    VENTAJAS
+    -Es facilmente enlazable, se puede enlazar un then con el siguiente return y hacer mas llamada
+    -Un poco mas facil e intuitivo de leer (respecto a los callbacks)
+    -Permite tener gran capacidad de trabajar con asincronismo
+    -Es una de las recomendaciones para trabajar con asincronismo
+    DESVENTAJAS.
+    -No maneja excepciones, sino que maneja un catch
+    -Podemos tener errores si no se retorna el siguiente llamado
+    -Para poder manejar en todos los navegadores se necesita herramientas como babel 
+
+*/
