@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function iniciarMap(){
-    var coord = {lat:-34.5956145 ,lng: -58.4431949};
+    var coord = {lat:19.4566233,lng:-99.1863977};
     var map = new google.maps.Map(document.getElementById('map'),{
-      zoom: 10,
+      zoom: 16,
       center: coord
     });
     var marker = new google.maps.Marker({
